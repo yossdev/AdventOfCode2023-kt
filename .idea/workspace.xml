@@ -5,17 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f5c44f1-c1f0-44b6-9a9f-159b84279a5e" name="Changes" comment="AOC2023">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1/part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1/part2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day2/part1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day2/part2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day1/Day1KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day2/Day2KtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day2/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/Day3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day3/Day3KtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day4/Day4KtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day5/Day5KtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2023-kt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2023-kt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/part1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/part2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/part1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/part2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +90,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/yosss/Downloads/KotlinProject(1)/KotlinProject",
+    "last_opened_file_path": "D:/Code/AdventOfCode2023-kt/src/main/kotlin/day1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,10 +103,18 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\AdventOfCode2023-kt\src\main\kotlin\day1" />
+      <recent name="D:\Code\AdventOfCode2023-kt\src\main\kotlin\day2" />
+      <recent name="D:\Code\AdventOfCode2023-kt\src\main\kotlin\day5" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day5" />
+      <recent name="day4" />
+      <recent name="day3" />
       <recent name="day2" />
       <recent name="day1" />
     </key>
@@ -131,6 +150,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day3KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2023-kt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day3" />
+      <option name="MAIN_CLASS_NAME" value="day3.Day3KtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day4KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2023-kt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day4" />
+      <option name="MAIN_CLASS_NAME" value="day4.Day4KtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="AdventOfCode2023-kt" />
@@ -141,6 +190,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Day4KtTest" />
+        <item itemvalue="JUnit.Day3KtTest" />
         <item itemvalue="JUnit.Day2KtTest" />
         <item itemvalue="JUnit.Day1KtTest" />
       </list>
@@ -158,7 +209,10 @@
       <workItem from="1701365684208" duration="1135000" />
       <workItem from="1701366845852" duration="916000" />
       <workItem from="1701373301553" duration="2041000" />
-      <workItem from="1701431294915" duration="32634000" />
+      <workItem from="1701431294915" duration="36143000" />
+      <workItem from="1701588763025" duration="30633000" />
+      <workItem from="1701691241141" duration="16442000" />
+      <workItem from="1701964162633" duration="24069000" />
     </task>
     <task id="LOCAL-00001" summary="AOC2023">
       <option name="closed" value="true" />

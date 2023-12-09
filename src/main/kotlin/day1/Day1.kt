@@ -1,6 +1,6 @@
 package day1
 
-import java.io.File
+import utils.readTxt
 import java.lang.IllegalArgumentException
 import kotlin.math.roundToInt
 
@@ -9,13 +9,24 @@ import kotlin.math.roundToInt
 */
 
 fun part1(): Int {
-   val calibrationDocs = File("src/main/kotlin/day1/part1.txt")
-      .readLines()
+   val calibrationDocs = readTxt("day1/input.txt")
 
    val sumOfCalibrationValue = calibrationDocs.fold(0) { acc, s ->
       val num = calibrationValue(s)
       acc + num
    }
+
+   return sumOfCalibrationValue
+}
+
+fun part2(): Int {
+   val calibrationDocs = readTxt("day1/input.txt")
+
+   val sumOfCalibrationValue = calibrationDocs.fold(0) { acc, s ->
+      val num = parseDigit(s)
+      acc + num
+   }
+
    return sumOfCalibrationValue
 }
 
@@ -59,18 +70,6 @@ fun calibrationValue(s: String): Int {
    }
 
    return "$x$x1".toInt()
-}
-
-fun part2(): Int {
-   val calibrationDocs = File("src/main/kotlin/day1/part2.txt")
-      .readLines()
-
-   val sumOfCalibrationValue = calibrationDocs.fold(0) { acc, s ->
-      val num = parseDigit(s)
-      acc + num
-   }
-
-   return sumOfCalibrationValue
 }
 
 enum class Digit(val num: Int) {

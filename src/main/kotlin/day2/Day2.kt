@@ -1,6 +1,6 @@
 package day2
 
-import java.io.File
+import utils.readTxt
 
 /*
 --- Day 2: Cube Conundrum ---
@@ -18,8 +18,7 @@ fun part1(): Int {
     - 13 green
     - 14 blue
      */
-    val games = File("src/main/kotlin/day2/part1.txt")
-        .readLines()
+    val games = readTxt("day2/input.txt")
 
     val sumOfGameIds = games.fold(0) { acc, s ->
         val gameConfig = GameConfig(12, 13, 14)
@@ -38,32 +37,8 @@ fun part1(): Int {
     return sumOfGameIds
 }
 
-fun isGamePossible(
-    game: String,
-    rules: (num: String, color: String) -> Boolean
-): Pair<Boolean, Int> {
-    val (showedCubes, gameId) = gameData(game)
-
-    for (setOfCubes in showedCubes) {
-        for (cube in setOfCubes.split(",")) {
-            val (num, color) = cube.trim().split(" ")
-            if (rules(num, color)) return Pair(false, gameId)
-        }
-    }
-
-    return Pair(true, gameId)
-}
-
-private fun gameData(game: String): Pair<List<String>, Int> {
-    val data = game.split(":")
-    val showedCubes = data.last().split(";")
-    val gameId = data.first().split(" ").last().toInt()
-    return Pair(showedCubes, gameId)
-}
-
 fun part2(): Int {
-    val games = File("src/main/kotlin/day2/part2.txt")
-        .readLines()
+    val games = readTxt("day2/input.txt")
 
     val sumOfPowerOfLeastPossibleGameConfig = games.fold(0) { acc, s ->
         val leastPossibleGameConfig = GameConfig(0,0,0)
@@ -91,4 +66,27 @@ fun part2(): Int {
     }
 
     return sumOfPowerOfLeastPossibleGameConfig
+}
+
+fun isGamePossible(
+    game: String,
+    rules: (num: String, color: String) -> Boolean
+): Pair<Boolean, Int> {
+    val (showedCubes, gameId) = gameData(game)
+
+    for (setOfCubes in showedCubes) {
+        for (cube in setOfCubes.split(",")) {
+            val (num, color) = cube.trim().split(" ")
+            if (rules(num, color)) return Pair(false, gameId)
+        }
+    }
+
+    return Pair(true, gameId)
+}
+
+private fun gameData(game: String): Pair<List<String>, Int> {
+    val data = game.split(":")
+    val showedCubes = data.last().split(";")
+    val gameId = data.first().split(" ").last().toInt()
+    return Pair(showedCubes, gameId)
 }
