@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f5c44f1-c1f0-44b6-9a9f-159b84279a5e" name="Changes" comment="AOC2023">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day1/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day2/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day3/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/Day4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day4/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day5/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/Utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day3/Day3KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day4/Day4KtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day5/Day5KtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/part1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day1/part2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/part1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day2/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day2/part2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day5/Day5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day5/Day5KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day5/Day5KtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +46,15 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -81,7 +71,7 @@
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -96,9 +86,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,36 +110,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="Day1KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode2023-kt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day1" />
-      <option name="MAIN_CLASS_NAME" value="day1.Day1KtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day2KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode2023-kt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day2" />
-      <option name="MAIN_CLASS_NAME" value="day2.Day2KtTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day3KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode2023-kt" />
       <extension name="coverage">
@@ -180,6 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day5KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2023-kt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day5" />
+      <option name="MAIN_CLASS_NAME" value="day5.Day5KtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="AdventOfCode2023-kt" />
@@ -190,10 +165,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Day5KtTest" />
         <item itemvalue="JUnit.Day4KtTest" />
         <item itemvalue="JUnit.Day3KtTest" />
-        <item itemvalue="JUnit.Day2KtTest" />
-        <item itemvalue="JUnit.Day1KtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +186,8 @@
       <workItem from="1701431294915" duration="36143000" />
       <workItem from="1701588763025" duration="30633000" />
       <workItem from="1701691241141" duration="16442000" />
-      <workItem from="1701964162633" duration="24069000" />
+      <workItem from="1701964162633" duration="75149000" />
+      <workItem from="1702225855865" duration="23776000" />
     </task>
     <task id="LOCAL-00001" summary="AOC2023">
       <option name="closed" value="true" />
@@ -227,6 +202,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AOC2023" />
