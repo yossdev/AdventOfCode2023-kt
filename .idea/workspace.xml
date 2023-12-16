@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f5c44f1-c1f0-44b6-9a9f-159b84279a5e" name="Changes" comment="AOC2023">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day6/Day6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day6/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day6/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day6/Day6KtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day7/Day7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day7/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day7/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day7/Day7KtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day6/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day6/Day6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,14 +105,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="day7" />
       <recent name="day6" />
       <recent name="day5" />
       <recent name="day4" />
       <recent name="day3" />
-      <recent name="day2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day6KtTest">
+  <component name="RunManager" selected="JUnit.Day7KtTest">
     <configuration name="Day4KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode2023-kt" />
       <extension name="coverage">
@@ -157,6 +158,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day7KtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2023-kt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day7" />
+      <option name="MAIN_CLASS_NAME" value="day7.Day7KtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="AdventOfCode2023-kt" />
@@ -166,8 +182,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day6KtTest" />
+        <item itemvalue="JUnit.Day7KtTest" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Day6KtTest" />
         <item itemvalue="JUnit.Day5KtTest" />
         <item itemvalue="JUnit.Day4KtTest" />
       </list>
@@ -191,6 +208,7 @@
       <workItem from="1701964162633" duration="75149000" />
       <workItem from="1702225855865" duration="23776000" />
       <workItem from="1702312194904" duration="6139000" />
+      <workItem from="1702568156285" duration="31030000" />
     </task>
     <task id="LOCAL-00001" summary="AOC2023">
       <option name="closed" value="true" />
@@ -220,5 +238,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AOC2023" />
     <option name="LAST_COMMIT_MESSAGE" value="AOC2023" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="hand == &quot;JJJJJ&quot;" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day7/Day7.kt</url>
+          <line>61</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

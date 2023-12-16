@@ -3,6 +3,10 @@ package day6
 import utils.readTxt
 import java.math.BigInteger
 
+/*
+--- Day 6: Wait For It ---
+*/
+
 fun part1(): BigInteger {
     val path =
 //        "day6/sample.txt"
